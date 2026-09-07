@@ -1,16 +1,31 @@
-# React + Vite
+# REVIVE — Autonomous AI Revenue Agent
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+REVIVE is an AI-powered revenue intelligence platform that helps merchants find and recover lost revenue.
 
-Currently, two official plugins are available:
+## What It Does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+REVIVE analyzes:
+- Failed payments
+- Abandoned purchases
+- At-risk customers
+- Revenue anomalies
 
-## React Compiler
+It identifies the most important revenue leak, investigates the possible root cause, and recommends actions to recover the revenue.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Demo Flow
 
-## Expanding the Oxlint configuration
+Dashboard → Revenue Leaks → AI Investigation → Root Cause Analysis → Recovery Playbook → Recovery Simulation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+React • Vite • JavaScript • CSS • Lucide React
+
+## Data
+
+Uses synthetic merchant, customer, and transaction data for demonstration. No real customer or payment data is used.
+
+## Future Scope
+
+Real payment gateway integration, live data, automated recovery actions, and real-time revenue monitoring.
+
+**Built individually for the Razorpay AI Builder Internship 2026.**
