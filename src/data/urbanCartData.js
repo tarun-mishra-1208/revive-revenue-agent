@@ -1,3 +1,4 @@
+// Synthetic UrbanCart data used for the REVIVE demo.
 export const dashboardData = {
   merchant: {
     name: "UrbanCart",
